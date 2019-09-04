@@ -1,0 +1,22 @@
+{
+  "name": "day-night-switch",
+  "version": "1.0.0",
+  "description": "test project for a day night switch",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cheryloberholzer@github.com/cheryloberholzer/day-night-switch.git"
+  },
+  "author": "Cheryl Oberholzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheryloberholzer/day-night-switch/issues"
+  },
+  "homepage": "https://github.com/cheryloberholzer/day-night-switch#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
