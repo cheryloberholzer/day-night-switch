@@ -1,0 +1,10 @@
+body {
+  font-family: "Helvetica Neue", SansSerif;
+}
+
+.daytime {
+  display: inline-block;
+  min-width: 5em;
+  padding: 5px;
+  background: #efefef;
+}
