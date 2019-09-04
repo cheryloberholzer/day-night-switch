@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:v-on="http://www.w3.org/1999/xhtml">
+<html xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
   <script src="node_modules/vue/dist/vue.js"></script>
   <link rel="stylesheet" href="css/app.css">
@@ -7,9 +7,11 @@
 <body>
 
 <div id="app">
-  <h1>Day Night Switch</h1>
-  <p>Day or Night? <span class="daytime">{{ daytime }}</span></p>
-  <button v-on:click="toggleDaytime">switch daytime</button>
+  <div v-bind:class="[daytimeClass]">
+    <h1>Day Night Switch</h1>
+    <p>Day or Night? <span class="daytime">{{ daytime }}</span></p>
+    <button v-on:click="toggleDaytime">switch daytime</button>
+  </div>
 </div>
 
 <script src="app.js"></script>
